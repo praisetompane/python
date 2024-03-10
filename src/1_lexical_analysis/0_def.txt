@@ -1,0 +1,19 @@
+Python programs are read by a parser (Python Software Foundation, 2023).
+    - the parser accepts a stream of tokens as input.
+
+Python program text is read as Unicode code points (Python Software Foundation, 2023).
+    - SyntaxError is raised if file cannot be decoded.
+    def SyntaxError: https://docs.python.org/3.11/library/exceptions.html#SyntaxError
+
+Lexical analyzer: generates stream of tokens from Python program text (Python Software Foundation, 2023)
+    for the parser.
+
+    def: python lexical analysis (Python Software Foundation, 2023):
+        - line structure:
+            see for details: ./1_lexical_analysis/0_line_structure 
+        
+        - tokens
+            see for details: ./1_lexical_analysis/1_tokens
+
+References:
+    Python Software Foundation. 2023. Lexical analysis. https://docs.python.org/3.11/reference/lexical_analysis.html#.

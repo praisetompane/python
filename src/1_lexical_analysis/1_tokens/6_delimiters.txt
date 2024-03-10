@@ -1,0 +1,74 @@
+def delimiter:
+    a character that marks
+        the beginning or end of a unit of data (Merriam-Webster).
+
+    a sequence of one or more characters
+        that mark the boundary
+        between two independent regions
+            in plain text, mathematical expressions or any data stream (Wikipedia).
+
+python delimiters (Python Software Foundation, 2023):
+    Q: they mark the beginning or end of tokens/lexemes?
+
+    "construction":
+        ( ) : function parameters, expression grouping
+        [ ] : list parameters
+        { } : dictionary parameters
+
+    augmented assignments:
+        NB: serve lexically as delimiters, but also perform an operation (Python Software Foundation, 2023).
+        
+        +=
+        -=
+        *=
+        /=
+        //=
+        %=
+        @=
+
+        <<=
+        >>=
+        &=
+        |=
+        ^=
+        ~=
+
+        meaning: operate using both operands
+            then assign the result to the left operand.
+
+        NB: pattern: {operator}{assignment}
+
+    other:
+        :
+        ,
+        .
+        ... : ellipsis literal 
+            see: ./src/6_delimiters.py
+        ;
+        @
+        =
+        ->
+            : empty space
+
+def ascii printable characters (ascii-code):
+    95 characters in ASCII that can be displayed on screen or printed on paper.
+
+    ascii printable characters with:
+        - meaning as part of other tokens.
+        - significant meaning to the lexical analyzer.
+
+        '
+        "
+        #
+        \
+
+    ascii printable characters not used in python:
+        i.e. throws syntax error.
+        
+        $
+        ?
+        `
+
+References:
+    Merriam-Webster. (n.d.). Delimiter. In Merriam-Webster.com dictionary. Retrieved August 1, 2023, from https://www.merriam-webster.com/dictionary/delimiter
+    ASCII printable characters. https://www.ascii-code.com/characters/printable-characters  

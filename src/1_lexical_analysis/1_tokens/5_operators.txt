@@ -1,0 +1,37 @@
+operators (Python Software Foundation, 2023):
+    mathematics:
+        +   : addition
+        -   : subtraction
+        *   : multiplication
+        **  : exponent
+        /   : floating point division
+        //  : integer division
+        %   : modulus
+
+    comparison
+        >   : greater than
+        <   : less than
+        >=  : greater than or equals
+        <=  : less than or equals
+        ==  : equals
+        !=  : not equals
+
+    bitwise:
+        <<  : bitwise shift left
+        >>  : bitwise shift right
+        &   : bitwise shift AND
+        |   : bitwise shift OR
+        ^   : bitwise shift XOR
+        ~   : bitwise shift NOT
+
+    logical operator: Q: Where are these defined in the language reference?
+        and
+        or
+        not
+
+    other:
+        :=  : variable assignment in expression
+        @: annotation
+
+References:
+    Python Software Foundation. 2023. Literals. https://docs.python.org/3.11/reference/lexical_analysis.html#literals.

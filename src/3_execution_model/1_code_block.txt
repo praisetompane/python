@@ -1,0 +1,26 @@
+def code block: piece of python program text that's
+                    executed as one unit (Python Software Foundation, 2023).
+    types:
+        - module
+        - function
+        - class definition
+        - commands sent interactively.
+            i.e. REPL commands
+        - script file 
+            - sent to python interpreter as standard input.
+                i.e. foo@bar python script.py
+            - sent to python interpreter as command line argument.
+        - script command: command specified on 
+                            interpreter command line 
+                                with -c option.
+        - a module run
+            as a top level script (i.e. as module __main__)
+            from the command line
+                with argument -m.
+        - string argument to eval().
+        - string argument to exec().
+    
+    see: ./src/3_execution_model/1_code_block.py
+    
+References:
+    Python Software Foundation. 2023. Execution model. https://docs.python.org/3.11/reference/executionmodel.html.

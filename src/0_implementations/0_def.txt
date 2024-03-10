@@ -1,0 +1,23 @@
+Known implementations (Python Software Foundation, 2023):
+* CPython:	Original and First Python. 
+            Implementations in C.
+            Compiles/Interprets to machine code.
+
+* Jython:	Python implementations in Java.
+            Compiles/Interprets to to JVM bytecode
+                runs on the JVM.
+            details: https://www.jython.org/index
+
+* Python for .Net:	CPython running as .NET managed application.
+                    details: https://pythonnet.github.io/
+
+* IronPython:   Python Implementations using .NET framework.
+                Compiles/Interprets to .NET IL(Intermediate Language) and .NET assemblies.
+                runs on .NET DLR(Dynamic Language Runtime)
+                details
+
+* PyPy:	Python implementations in Python.
+        details: https://www.pypy.org/
+
+References:
+    Python Software Foundation. 2023. The Python Language Reference. https://docs.python.org/3.11/reference/introduction.html#alternate-implementations.

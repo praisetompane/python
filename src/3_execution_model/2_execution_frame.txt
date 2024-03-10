@@ -1,0 +1,11 @@
+def execution frame: context    
+                        in which a code block is executed.
+    components:
+        - administrative information (used for debugging)
+        - definition of where and how to resume execution
+            after completion of the code block.
+
+        see: ./src/3_execution_model/2_execution_frame.py
+
+References:
+    Python Software Foundation. 2023. Execution model. https://docs.python.org/3.11/reference/executionmodel.html#structure-of-a-program.

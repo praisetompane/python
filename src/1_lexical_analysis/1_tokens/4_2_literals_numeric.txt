@@ -1,0 +1,41 @@
+- numeric literals (Python Software Foundation, 2023):
+    - integer literals
+    - floating-point literals
+    - imaginary literals
+
+    - integer literals:
+        - leading zeros for nonzero literals are illegal
+        - unlimited length [only bound by computer's memory]
+
+    - floating-point literals:
+        - length/range is implementation dependent
+        - for e, the number afterward is the number of succeeding zeros.
+            the integer and exponent are both radix 10(i.e. base 10)
+            
+            i.e. 2e2 = 200 = 2 followed by 2 zeros
+                    2e2 ≠ 2 × 2 = 4
+
+    - imaginary literals:
+        - properties:
+            - defaults to complex number with zero real part
+            - both real real parts have same range
+                i.e. given:
+                    a + bi, a,b ∈ ℝ
+                    a and b have same value range
+
+            see for complex number definition:
+                3_mathematics/1_algebra/3_complex_numbers/0_def.txt
+
+        examples:
+            see: ./src/4_2_literals_numeric_imaginary_and_complex.py
+
+        NB: complex literals DO NOT exist:
+            - you manually combine real and imaginary literals to build them.
+        
+    universal properties:
+        - they are unsigned
+    
+        - underscores are excluded when determining the literal's value
+
+References:
+    Python Software Foundation. 2023. Literals. https://docs.python.org/3.11/reference/lexical_analysis.html#literals.
