@@ -1,0 +1,73 @@
+string literals (Python Software Foundation, 2023):
+    - string:
+        properties:
+            - prefix: "r" | "u" | "R" | "U" | "f" | "F"
+                | "fr" | "Fr" | "fR" | "FR" | "rf" | "rF" | "Rf" | "RF"
+
+            - valid characters (AKA source characters) are defined from encoding declaration(UTF-8 default).
+            - produces an instance of 𝑠𝑡𝑟 type.
+                𝑠𝑡𝑟 details: https://docs.python.org/3.11/library/stdtypes.html#str
+        - examples:
+            see: ./src/5_types_literals_strings.py
+        
+        
+        - formatted string literal:
+            - properties:
+                - prefix: "f" | "F".
+                - may contain replacement fields marked by {}.  
+                    - these can contain variables and expressions
+                    - are treated as expressions evaluated at runtime.
+                        - evaluated left to right
+                        limitations:
+                            - cannot be empty.
+                            - lambda and assignment require explicit parenthesis.
+                            - triple-quote literals cannot have comments.
+
+                - cannot be used as doc strings.
+                - '\' are illegal in format expressions.
+                    workaround: create a separate variable with the '\'.
+
+                - can be combined with r but NOT 'b' or 'u'
+                    i.e. formatted strings literals are possible
+                            formatted bytes literals are not possible
+            - modifiers:
+                - conversion
+                - format spec
+                - =
+
+                - conversion:
+                    - allows selecting which built-in to use for formatting
+                        - representation allowed:
+                                function          syntax
+                            - str():            !s
+                            - repr():           !r
+                            - ascii():          !a
+                - format spec:
+                    - allows manipulating more precisely how values are rendered.
+                    - syntax: { literal: format_spec } NB: must both be inside the  '{}'
+
+                    format specifier mini language: https://docs.python.org/3.11/library/string.html#formatspec
+                
+                - = :
+                    - allows including the expression in the output
+                    - properties:
+                        - includes spaces with the {}.
+                        - by default invokes repr() for the expression. can be overridden.
+
+                - precedence:
+                    1. expression evaluation
+                    2. conversion
+                    2. format spec
+                    in code:
+                        value = conversion(expression evaluation)
+                        type(value).__format__(value, format_spec)
+
+            - examples:
+                see: ./src/4_0_literals_strings_formatted_strings.py
+                
+
+    NB: BNF lexical definition can be found here: https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
+        see: to understand notation used: ./src/0_implementations/1_lexical_and_syntactical_BNF_notation.txt
+
+References:
+    Python Software Foundation. 2023. Literals. https://docs.python.org/3.11/reference/lexical_analysis.html#literals.

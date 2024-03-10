@@ -1,0 +1,10 @@
+def white spaces between tokens (Python Software Foundation, 2023):
+    tab, space, formfeeds are interchangeable for separating tokens
+        exceptions: 
+            - beginning of logical line
+            - string literal
+                i.e. value \tab value ≠ value \space value
+                    praise  is coming   ≠ praise is coming
+
+References:
+    Python Software Foundation. 2023. Whitespace between tokens. https://docs.python.org/3.11/reference/lexical_analysis.html#whitespace-between-tokens.

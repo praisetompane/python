@@ -1,0 +1,45 @@
+properties (Python Software Foundation, 2023)
+    - Python 2.x:
+        valid characters to use in identifier: 
+            ASCII range
+                - A to Z 
+                - a to z
+                - _ (underscore)
+                - 0 to 9, but NOT as the first character of the identifier.
+    - Python 3.x
+        - all Python 2.x valid characters
+        - non-ASCII characters as defined here:
+            https://peps.python.org/pep-3131/
+
+    - unlimited length [only bound by computer's memory]
+    - case is significant
+    - ALL characters are converted to Unicode Normalization form NFKC during parsing:
+        - this form is used for comparisons.
+
+reserved classes of identifiers (Python Software Foundation, 2023):
+    - identifiers besides keywords that have special meaning.
+        - they are denoted by a pattern of leading or trailing underscores.
+    - classes:
+        - _* : stipulates do no import during "from module_x import *"
+        - _ :
+            - wildcard in case statement in pattern match context.
+            - convention (not enforced by Python)
+                - unused variables
+                - "special" values
+                - internationalization
+                - private class members
+            - in REPL, stored last result
+
+        - __*__ : used for system-defined names ("dunder" names).
+                    - defined by interpreter and its implementation; including the Standard Library.
+                    - ANY usage of __*__ names in an undocumented manner is subject to be broken without warning.
+
+        - __* : private class members
+                    - through name mangling are renamed to using patter : classname__*
+                        example: 
+                            see: ./src/1_identifiers(names)_class_subtyping_overrides.py                                 
+
+                    - this is to help prevent name overriding in class hierarchies
+
+References:
+    Python Software Foundation. 2023. Identifiers and keywords. https://docs.python.org/3.11/reference/lexical_analysis.html#identifiers.

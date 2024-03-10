@@ -1,0 +1,26 @@
+byte literals (Python Software Foundation, 2023):
+    - bytes:
+        - properties:
+            - prefix: "b" | "B" | "br" | "Br" | "bR" | "BR" | "rb" | "rB" | "Rb" | "RB"
+            - character set:
+                - only ASCII
+                    - overrules encoding declarations and Python UTF-8 default
+                - valid characters (AKA source characters) can ONLY be ASCII
+                    - NB: This overrules any encoding declaration.
+            - must ALWAYS be prefixed with 'b' or 'B'.
+            - produces an instance of 𝑏𝑦𝑡𝑒𝑠 type.
+                𝑏𝑦𝑡𝑒𝑠 details: https://docs.python.org/3.11/library/stdtypes.html#bytes
+            - bytes with a numeric value greater than 127
+                MUST be expressed with escapes.
+                Q: Why?
+            - Python 3.3 supports the 'rb' prefix for raw bytes
+                synonym to 'br' prefix
+        
+       - examples:
+            see: ./src/4_0_literals_strings_escape_sequences.py
+
+    NB: BNF lexical definition can be found here: https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
+        see: to understand notation used: ./src/0_implementations/1_lexical_and_syntactical_BNF_notation.txt
+
+References:
+    Python Software Foundation. 2023. Literals. https://docs.python.org/3.11/reference/lexical_analysis.html#literals.

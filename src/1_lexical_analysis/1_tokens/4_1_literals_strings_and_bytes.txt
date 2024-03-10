@@ -1,0 +1,27 @@
+string and byte literals (Python Software Foundation, 2023):
+    - universal properties:
+        - no space allowed between the prefix and the rest of the literal
+        - '\' used to escape special characters
+            - follows rules similar to Standard C:
+                - complete set can be found here: https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
+            example: 
+                "\\" = \
+                "\\n" = \n
+        - 'r' or 'R' prefix allowed
+            means raw strings => they treat '\' as literal character
+
+    - concatenation:
+        - adjacent strings in different quotes are concatenated.
+        - properties:
+            - split long strings across physical lines without using '\'
+            - defined at syntactic level, implemented at compile time. 
+                NB: runtime concatenation still requires '+'
+
+        examples:
+            see: ./src/4_0_literals_strings_and_bytes_concatenation.py
+
+    NB: BNF lexical definition can be found here: https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
+        see: to understand notation used: src/0_implementations/1_lexical_and_syntactical_BNF_notation.txt
+
+References:
+    Python Software Foundation. 2023. Literals. https://docs.python.org/3.11/reference/lexical_analysis.html#literals.

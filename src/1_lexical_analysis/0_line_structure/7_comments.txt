@@ -1,0 +1,10 @@
+def comments (Python Software Foundation, 2023):
+    - starts at beginning of logical line with a hash character(#).
+        the # must NOT be part of string literal.
+    - finishes at the end of physical.
+    - signify end of logical line
+        unless implicit line joining rules are invoked.
+    - ignored by the syntax.
+
+References:
+    Python Software Foundation. 2023. Comments. https://docs.python.org/3.11/reference/lexical_analysis.html#comments.

@@ -1,0 +1,10 @@
+def physical line (Python Software Foundation, 2023):
+    -denoted by end-of-line sequence.
+        - supported sequences:
+            LF = Line Feed
+            CR = Carriage Return
+            CRLF = Carriage Return Line Feed
+    implicitly denoted by end of input.
+
+References:
+    Python Software Foundation. 2023. Physical lines. https://docs.python.org/3.11/reference/lexical_analysis.html#physical-lines.

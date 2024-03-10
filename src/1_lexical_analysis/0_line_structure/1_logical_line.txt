@@ -1,0 +1,10 @@
+def logical line (Python Software Foundation, 2023):
+    denoted by NEWLINE(\n) token.
+    constructed from one or more physical lines
+        following explicit and implicit line joining rules.
+    statements do not cross logical lines.
+        exceptions = {if the statement's syntax allows NEWLINEs}
+            e.g. compound statement: if..else
+
+References:
+    Python Software Foundation. 2023. Logical lines. https://docs.python.org/3.11/reference/lexical_analysis.html#logical-lines

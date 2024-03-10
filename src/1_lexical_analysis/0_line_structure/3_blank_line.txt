@@ -1,0 +1,11 @@
+def blank lines (Python Software Foundation, 2023):
+    logical
+        contains spaces, tabs, formfeeds and possibly a comment:
+            is ignored (i.e. does not generate NEWLINE token).
+
+        in read-eval-print loop (REPL): 
+            entirely blank logical line(i.e. contains nothing) 
+                terminates a multi-line statement [in CPython].
+
+References:
+    Python Software Foundation. 2023. Blank lines. https://docs.python.org/3.11/reference/lexical_analysis.html#blank-lines.

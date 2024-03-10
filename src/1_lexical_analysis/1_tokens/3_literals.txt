@@ -1,0 +1,20 @@
+def literals (Python Software Foundation, 2023):
+    notation
+        for constant values
+    of some built-in types.
+
+categories (Python Software Foundation, 2023):
+    - string and byte literals:
+        - string:
+            - formatted string literal
+        - bytes
+    - numeric literals:
+        - integer literals
+        - floating-point literals
+        - imaginary literals
+
+        NB: complex literals DO NOT exist:
+            - you manually combine real and imaginary literals to build them.
+
+References:
+    Python Software Foundation. 2023. Literals. https://docs.python.org/3.11/reference/lexical_analysis.html#literals.

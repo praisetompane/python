@@ -1,0 +1,15 @@
+def implicit line joining (Python Software Foundation, 2023):
+    join row or more physical lines
+        into one logical line
+        with '[]', '{}', '()' or '""" """'
+
+    properties:
+        - comments allowed at the end
+            - comment disallowed for '""" """'
+        - does not require explicit '\'
+        - blank line continuations are allowed
+        - indentation between continuation lines is not enforced
+        - does not generate NEWLINE token.
+
+References:
+    Python Software Foundation. 2023. Implicit line joining. https://docs.python.org/3.11/reference/lexical_analysis.html#implicit-line-joining.

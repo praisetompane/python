@@ -1,0 +1,40 @@
+def name: sequence of characters
+            that refer to objects (Python Software Foundation, 2023).
+        def object: TBD.
+
+def name binding (Python Software Foundation, 2023): the act of introducing a name
+                                                        to point/refer to an object.
+    - name binding constructs/operations:
+        - formal parameters to functions.
+        - function definitions.
+        - class definitions.
+        - assignments:
+            - occur in block defined by:
+                - class
+                - function
+                - module (top-level code block).
+        - import statements:
+            - occur in block defined by:
+                - class
+                - function
+                - module (top-level code block).
+            - "from ... import *" binds all names in the imported module 
+                except underscored one.
+            
+        - targets that are identifiers if occurring in an assignment:
+            - for loop header
+            - after 𝑎𝑠 in: #
+                - with statement
+                - except, except* clause
+                - as-in structural pattern matching. 
+                - in a capture pattern in structural pattern matching.
+        - targets of 'del' as considered bound too
+        def targets: TBD
+        
+    - name locality:
+        - names defined in block are local to the block
+            - unless defined as nonlocal or global
+        see: ./src/3_execution_model/3_names_and_name_binding_name_locality.py
+
+References:
+    Python Software Foundation. 2023. Execution model. https://docs.python.org/3.11/reference/executionmodel.html.

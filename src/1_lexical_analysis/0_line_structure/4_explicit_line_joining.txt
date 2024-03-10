@@ -1,0 +1,24 @@
+def explicit line joining (Python Software Foundation, 2023):
+    join two or more physical lines
+        into one logical line
+        with '\'.
+
+    the interpreter remove the '\' and end-of-line character.
+    
+    '\' properties:
+        - must be outside string or comment to work.
+        - line ending with it, cannot have a comment.
+        - can only be used to split string literals
+            across physical lines.
+            example:
+                if I wanted to set 'number' with value 342452423442245323234234342343432342
+                    but its too long in the editor:
+                    NB: I cannot split it, the statement below is illegal:
+                        number = 342452423442245323234234 \
+                                    342343432342 
+                    
+        - illegal elsewhere on logical lines
+            except string literals. 
+    
+References:
+    Python Software Foundation. 2023. Explicit line joining. https://docs.python.org/3.11/reference/lexical_analysis.html#explicit-line-joining.
