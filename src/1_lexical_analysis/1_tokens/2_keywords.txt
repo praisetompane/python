@@ -1,0 +1,29 @@
+defined in: https://github.com/python/cpython/blob/a5f244d627a6815cf2d8ccec836b9b52eb3e8de2/Grammar/python.gram
+
+types (Python Software Foundation, 2023):
+    - 'hard'
+    - soft
+
+    - 'hard':    
+        - identifiers used as reserved words of the language.
+        - CANNOT be used as identifiers.
+    
+    - soft:
+        - from version 3.10
+        - identifiers used as keywords under specific contexts.
+        - for pattern matching context:
+                - match
+                - case
+                - _
+
+current full keywords as 2023-August-15
+    False      await      else       import     pass
+    None       break      except     in         raise
+    True       class      finally    is         return
+    and        continue   for        lambda     try
+    as         def        from       nonlocal   while
+    assert     del        global     not        with
+    async      elif       if         or         yield
+
+References:
+    Python Software Foundation. 2023. Identifiers and keywords. https://docs.python.org/3.11/reference/lexical_analysis.html#identifiers.

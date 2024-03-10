@@ -1,0 +1,15 @@
+def encoding declarations (Python Software Foundation, 2023):
+    - informs Python the encoding scheme of the file.
+    - properties:
+        - must be in the first two lines.
+        - if second of the two, the preceding MUST be a comment.
+        - provided encoding must be Python supported:
+            supported list: https://docs.python.org/3.11/library/codecs.html#standard-encodings
+        - declaration must match this regex: coding[=:]\s*([-\w.]+)
+        - defaults to UTF-8
+    - the encoding is used for all lexical analysis.
+    - recommended:
+        # -*- coding: <encoding-name> -*-
+
+References:
+    Python Software Foundation. 2023. Encoding declarations. https://docs.python.org/3.11/reference/lexical_analysis.html#encoding-declarations.
