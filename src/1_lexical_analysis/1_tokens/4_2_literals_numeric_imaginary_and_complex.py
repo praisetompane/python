@@ -28,3 +28,6 @@ print(a_complex_number)
 
 a_complex_number = 5.90 + 9.98j
 print(a_complex_number)
+
+print("complex number literals addition")
+print((2 + 2j) + (3 + 3j))
