@@ -1,0 +1,6 @@
+purpose: 
+    an in-depth study of python
+- priority: 
+    - learn:
+- learn:
+    https://docs.python.org/3.11/reference/datamodel.html
