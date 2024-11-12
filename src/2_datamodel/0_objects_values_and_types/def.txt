@@ -1,0 +1,12 @@
+What is the Data model?
+
+1. objects, values and types
+    What is?:
+        id()
+        type()
+
+gc module?
+
+
+References:
+    Python Software Foundation. 2023. Objects, values and types. https://docs.python.org/3.12/reference/datamodel.html#objects-values-and-types
