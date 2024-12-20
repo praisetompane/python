@@ -1,0 +1,24 @@
+What is the Data model?
+
+1. objects, values and types
+    What is?:
+        id()
+        type()
+
+2. the standard type hierarchy
+    Is there a picture of the Standard Type Hierarchy?
+
+
+    Are values immutable in Python?
+        some sequences:
+            - strings
+            - tuples
+            - bytes
+
+    Mutable ones:
+        - list
+        - byte array    
+
+3. special method names
+
+4. coroutines
