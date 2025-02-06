@@ -33,4 +33,7 @@
   - [What is Python Used For?](https://www.youtube.com/watch?v=-67hh86N42Q&list=PL1SlsJ5DkUXCItreEt0rVviOdOXSP1hm3&index=26)
   - [I built the same app 3 times | Which Python Framework is best? Django vs Flask vs FastAPI](https://www.youtube.com/watch?v=3vfum74ggHE&list=PL1SlsJ5DkUXCItreEt0rVviOdOXSP1hm3&index=27)
 
+- learning resources:
+  - [How to Think Like a Computer Scientist: Interactive Edition](https://runestone.academy/ns/books/published/thinkcspy/index.html)
+
 **Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serve as my distributed memory.
