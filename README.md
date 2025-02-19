@@ -4,12 +4,11 @@
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-## Language details: 
+## Language Details: 
   - [language reference](https://docs.python.org/3.11/reference/index.html#reference*index)
   - [base modules index](https://docs.python.org/3/py-modindex.html)
   - [standard library reference](https://docs.python.org/3.11/library/index.html)
-  - packaging and distribution:
-    - [packaging](https://packaging.python.org/en/latest/)
+  - [packaging and distribution](https://packaging.python.org/en/latest/)
     - tools:
       - [pip](https://pypi.org/project/pip/)
       - [pipenv](https://pipenv.pypa.io/en/latest/)
@@ -23,8 +22,9 @@
   - history:
     - [The Story of Python, by Its Creator, Guido van Rossum](https://www.youtube.com/watch?v=J0Aq44Pze-w)
 
-## Testing
+## Testing:
   - [pytest](https://docs.pytest.org/en/latest/index.html#)
+
 ## Use Cases:
   - [Applications for Python](https://www.python.org/about/apps/)
 
