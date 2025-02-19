@@ -8,7 +8,7 @@
   - [language reference](https://docs.python.org/3.11/reference/index.html#reference*index)
   - [base modules index](https://docs.python.org/3/py-modindex.html)
   - [standard library reference](https://docs.python.org/3.11/library/index.html)
-  - package management:
+  - packaging and distribution:
     - [packaging](https://packaging.python.org/en/latest/)
     - tools:
       - [pip](https://pypi.org/project/pip/)
