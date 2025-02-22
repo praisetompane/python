@@ -1,7 +1,7 @@
 def: module: a collection of code 
             1 type of module object
             all modules are of this type
-            independent of technolgy(e..g python, C, etc)
+            independent of technology(e..g python, C, etc)
 
             has: 
                 name
@@ -10,7 +10,7 @@ def: module: a collection of code
                 whole module code ran, top to bottom and left to right
                 cached in sys.modules
 
-def: package: special kind of module for organising other modules
+def: package: special kind of module for organizing other modules
                 has: 
                     __path__ attribute 
 
@@ -20,7 +20,7 @@ def: package: special kind of module for organising other modules
                     metaphor: package := directories on a file system, then
                             module  := files in the directories
                             
-                sub modules access nootation
+                sub modules access notation
                     parent.child.child...
                     e.g. email.mime.text
                 
@@ -48,12 +48,12 @@ def: package: special kind of module for organising other modules
                                         only their __init__.py is executed
                                 
                     namespace package:
-                        def:    composite of various portions
-                                    each portiion constributes a subpackage
-                                        to the parent package.
+                        def: composite of various portions
+                               each portion contributes a sub-package
+                                  to the parent package.
                         properties:
-                            portions can exist anywhere Python searhces during module import
-                            they may/may not correspond directly to objects on a file sytem;
+                            portions can exist anywhere Python searches during module import
+                            they may/may not correspond directly to objects on a file system;
                             can be virtual modules with no concrete representation.
                             __path__ : custom iterable type
                             parent/__init__.py is NOT required
