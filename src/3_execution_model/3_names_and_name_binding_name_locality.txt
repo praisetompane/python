@@ -1,6 +1,7 @@
 def name: sequence of characters
             that refer to objects (Python Software Foundation, 2023).
-        def object: TBD.
+        
+        def object: ???.
 
 def name binding (Python Software Foundation, 2023): the act of introducing a name
                                                         to point/refer to an object.
@@ -29,7 +30,8 @@ def name binding (Python Software Foundation, 2023): the act of introducing a na
                 - as-in structural pattern matching. 
                 - in a capture pattern in structural pattern matching.
         - targets of 'del' as considered bound too
-        def targets: TBD
+
+        def targets: ???
         
     - name locality:
         - names defined in block are local to the block

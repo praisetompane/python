@@ -1,7 +1,13 @@
-FROM mcr.microsoft.com/devcontainers/python:1-3.12-bullseye
+FROM python:3.11
 
 WORKDIR /python
 
 COPY . .
 
-RUN pipenv install
+RUN apt-get update \
+    && apt-get install aspell -y
+    
+RUN python -m pip install -r requirements.txt
+
+RUN adduser -u 5678 --disabled-password --gecos "" python && chown -R python /python
+USER python
