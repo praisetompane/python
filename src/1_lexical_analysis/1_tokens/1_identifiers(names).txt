@@ -37,7 +37,7 @@ reserved classes of identifiers (Python Software Foundation, 2023):
         - __* : private class members
                     - through name mangling are renamed to using patter : classname__*
                         example: 
-                            see: ./src/1_identifiers(names)_class_subtyping_overrides.py                                 
+                            see: ./src/1_identifiers(names)_class_sub_typing_overrides.py                                
 
                     - this is to help prevent name overriding in class hierarchies
 

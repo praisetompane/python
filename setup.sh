@@ -1,26 +1,26 @@
-echo "adding asdf python plugin"
+echo "Adding asdf python plugin"
     asdf plugin add python
-echo "done"
+echo "Done"
 
 ostype="$(uname -s)"
 if [ "$ostype" = "Linux" ]; then
-    echo "install openssl dependecy"
+    echo "install openssl dependency"
     sudo apt install libedit-dev
-    echo "done"
+    echo "Done"
 fi
 
-echo "installing python"
+echo "Installing python"
     asdf install python latest
-echo "done"
+echo "Done"
 
-echo "set latest version to system wide version"
+echo "Set latest version to system wide version"
     asdf global python latest
-echo "done"
+echo "Done"
 
-echo "installing pipenv"
+echo "Installing pipenv"
     brew install pipenv
-echo "done"
+echo "Done"
 
 echo "installing system level Black in python"
     pip3 install black
-echo "done"
+echo "Done"
