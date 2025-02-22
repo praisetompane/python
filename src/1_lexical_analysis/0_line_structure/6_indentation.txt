@@ -21,7 +21,7 @@ def indentation (Python Software Foundation, 2023):
                         print("2") is less than that, hence it fails with IndentationError.
     - properties:
         - total spaces preceding
-            first non-blank character determine's the line indentation.
+            first non-blank character determines the line indentation.
         - cannot be split across physical lines with '\'.
         - white space preceding first '\' terminates indentation
         - invalid if contains inconsistent use of tabs and spaces.
