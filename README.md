@@ -4,7 +4,7 @@
 ![build status](https://github.com/praisetompane-programming-languages/python/actions/workflows/python.yaml/badge.svg) <br>
 
 **objective**: 
-  - An in-depth study of Python's implementation and ecosystem.
+  - An in-depth study of Python's design, implementation and ecosystem.
   - This focuses on [CPython](https://github.com/python/cpython).
   
 
