@@ -1,13 +1,17 @@
 # Python
 
-**objective**: 
-  - An in-depth study of Python's design, implementation and ecosystem.
-  - This focuses on [CPython](https://github.com/python/cpython).
-  
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![build status](https://github.com/praisetompane-programming-languages/python/actions/workflows/python.yaml/badge.svg) <br>
+
+**objective**: An in-depth study of:
+- Python's Interpreter:
+  - This focuses on [CPython](https://github.com/python/cpython).
+- Python's language design, implementation and ecosystem.
 
 ## Language Details: 
   - [language reference](https://docs.python.org/3.11/reference/index.html#reference*index)
+  - [interpreter:](https://github.com/python/cpython)
+    - [Bennett, J. 2019. See CPython run: Getting to know your Python interpreter. North Bay Python](https://www.youtube.com/watch?v=tzYhv61piNY)
   - [base modules index](https://docs.python.org/3/py-modindex.html)
   - [standard library reference](https://docs.python.org/3.11/library/index.html)
   - [packaging and distribution](https://packaging.python.org/en/latest/)
