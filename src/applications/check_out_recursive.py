@@ -21,7 +21,7 @@ def checkout():
         print("Average price per item: $", average)
 
 
-def checkoutRecursive():
+def check_out_recursive():
     def checkout(total, count):
         price = float(input("Enter price of item (0 when done): "))
         if price < 0:
@@ -37,7 +37,7 @@ def checkoutRecursive():
 
 def main():
     # checkout(): The iterative approach with mutation
-    (total, count) = checkoutRecursive()
+    (total, count) = check_out_recursive()
     average = total / count
     print("Total items:", count)
     print("Total $", total)

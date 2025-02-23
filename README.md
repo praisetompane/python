@@ -4,13 +4,16 @@
 ![build status](https://github.com/praisetompane-programming-languages/python/actions/workflows/python.yaml/badge.svg) <br>
 
 **objective**: 
-  - An in-depth study of Python's implementation and ecosystem.
+  - An in-depth study of Python's design, implementation and ecosystem.
   - This focuses on [CPython](https://github.com/python/cpython).
   
 
 
 ## Language Details: 
   - [language reference](https://docs.python.org/3.11/reference/index.html#reference*index)
+  - compiler/interpreter:
+    - [cpython implementation](https://github.com/python/cpython)
+      - [Bennett, J. 2019. See CPython run: Getting to know your Python interpreter. North Bay Python](https://www.youtube.com/watch?v=tzYhv61piNY)
   - [base modules index](https://docs.python.org/3/py-modindex.html)
   - [standard library reference](https://docs.python.org/3.11/library/index.html)
   - [packaging and distribution](https://packaging.python.org/en/latest/)
@@ -23,9 +26,6 @@
   - [package index](https://pypi.org)
   - [extending and embedding](https://docs.python.org/3.11/extending/index.html)
   - [developer contribution guide](https://devguide.python.org/)
-  - compiler/interpreter:
-    - [cpython implementation](https://github.com/python/cpython)
-      - [Bennett, J. 2019. See CPython run: Getting to know your Python interpreter. North Bay Python](https://www.youtube.com/watch?v=tzYhv61piNY)
   - memory model:
     - [computational complexity cost model](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/)
   - history:
