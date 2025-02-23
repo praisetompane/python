@@ -1,7 +1,7 @@
 # Python
 
 **objective**: 
-  - An in-depth study of Python's implementation and ecosystem.
+  - An in-depth study of Python's design, implementation and ecosystem.
   - This focuses on [CPython](https://github.com/python/cpython).
   
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
