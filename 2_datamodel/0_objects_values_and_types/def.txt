@@ -6,5 +6,13 @@ What is the Data model?
         type()
 
 
+2. values:
+
+
+3. types:
+    C/Python API for defining types: https://docs.python.org/3.11/c-api/typeobj.html#c.PyTypeObject.tp_iter
+        - key structures:
+            - PyTypeObject
+            
 References:
     Python Software Foundation. 2023. Objects, values and types. https://docs.python.org/3.12/reference/datamodel.html#objects-values-and-types
