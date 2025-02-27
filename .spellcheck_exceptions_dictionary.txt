@@ -7,11 +7,13 @@ DEDENT
 REPL
 BNF
 UTF
+MYINC
 
 
 # authors
 Rossum
 praisetompane
+
 
 # domain specific
 radix
@@ -35,6 +37,7 @@ classname
 dunder
 bitwise
 executionmodel
+
 
 # python keywords
 pprint
@@ -99,3 +102,6 @@ IronPython
 jython
 pypy
 pythonnet
+
+# domain specific - C/Python API
+PyTypeObject
