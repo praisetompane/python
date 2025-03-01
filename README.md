@@ -39,7 +39,7 @@
 ## Learning Resources
   - [roadmap](https://roadmap.sh/python)
   - [practice problems](https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=python)
-
+  - [What Does It Take To Be An Expert At Python?](https://www.youtube.com/watch?v=7lmCu8wz8ro)
 ## Spell Check
 ```shell
 pyspelling -c spellcheck.yaml
