@@ -1,6 +1,6 @@
 """    
   def generator | generator function: 
-    - formal: 𝑓: * ↦ Generator Iterator
+    - formal: 𝑓: any ↦ Generator Iterator
         - in words: a function that creates and returns a Generator Iterator.
 
     - plain english: ???
@@ -32,8 +32,12 @@ def generate_infinite_numbers():
         number += 1
 
 
+def generator_expression():
+    sum(i * i for i in range(10))
+
+
 if __name__ == "__main__":
-    last_number = 100
-    print(f"Generating a {last_number} numbers")
     for number in generate_infinite_numbers():
         print(number)
+
+    # print(generator_expression())
