@@ -94,6 +94,10 @@ piNY
 psf
 tzYhv
 https
+dev
+lmCu
+ro
+wz
 
 
 # pythons implementations:

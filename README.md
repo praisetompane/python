@@ -7,6 +7,8 @@
 - An in-depth study of Python's:
   - Interpreter.
     - This focuses on [CPython](https://github.com/python/cpython).
+    - [Annotations on the actual interpreter implementation](https://github.com/praisetompane/python_implementation_study_cpython)
+      - They are prefixed with "Praise:"
   - Python's design, implementation and ecosystem.
 
 ## Language Details
@@ -24,14 +26,15 @@
   - structuring projects:
 - [package index](https://pypi.org)
 - [extending and embedding](https://docs.python.org/3.11/extending/index.html)
+  - [PEP Index](https://www.python.org/dev/peps/)
 - [developer contribution guide](https://devguide.python.org/)
 - memory model:
   - [computational complexity cost model](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/)
 - history:
   - [The Story of Python, by Its Creator, Guido van Rossum](https://www.youtube.com/watch?v=J0Aq44Pze-w)
 
-## Testing
-  - [pytest](https://docs.pytest.org/en/latest/index.html#)
+## Community
+- [Discord](https://discuss.python.org)
 
 ## Use Cases
   - [Applications of Python](https://www.python.org/about/apps/)
@@ -40,10 +43,12 @@
   - [roadmap](https://roadmap.sh/python)
   - [practice problems](https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=python)
   - [What Does It Take To Be An Expert At Python?](https://www.youtube.com/watch?v=7lmCu8wz8ro)
+
 ## Spell Check
 ```shell
 pyspelling -c spellcheck.yaml
 ```
+
 
 # References:
 
