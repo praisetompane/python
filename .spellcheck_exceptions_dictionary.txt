@@ -94,6 +94,13 @@ piNY
 psf
 tzYhv
 https
+dev
+lmCu
+ro
+wz
+iter
+tp
+typeobj
 
 
 # pythons implementations:
