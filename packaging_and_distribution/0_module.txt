@@ -1,0 +1,11 @@
+def: module: a collection of code 
+            1 type of module object
+            all modules are of this type
+            independent of technology(e..g python, C, etc)
+
+            has: 
+                name
+
+            on import:
+                whole module code ran, top to bottom and left to right
+                cached in sys.modules
