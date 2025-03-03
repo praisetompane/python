@@ -30,6 +30,7 @@
 - [developer contribution guide](https://devguide.python.org/)
 - memory model:
   - [computational complexity cost model](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/)
+- [glossary](https://docs.python.org/3.11/glossary.html)
 - history:
   - [The Story of Python, by Its Creator, Guido van Rossum](https://www.youtube.com/watch?v=J0Aq44Pze-w)
 

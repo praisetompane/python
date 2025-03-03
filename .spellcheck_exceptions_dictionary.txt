@@ -8,11 +8,19 @@ REPL
 BNF
 UTF
 MYINC
+ASGI
+WSGI
 
 
 # authors
 Rossum
 praisetompane
+Grimson
+Guttag
+ionelmc
+staskoltsov
+Johni
+Marangon
 
 
 # domain specific
@@ -56,6 +64,8 @@ init
 
 
 # technology:
+FastAPI
+gunicorn
 JVM
 pyspelling
 pytest
@@ -67,6 +77,10 @@ ensurepip
 setuptools
 venv
 pipenv
+sqlalchemy
+libpq
+psycopg
+mako
 
 
 # institutions:
@@ -74,9 +88,17 @@ pypa
 pypi
 hackerrank
 roadmap
+palletsprojects
+HarvardX
+mitopenlearning
+runestone
+stackoverflow
+vidhya
+redhat
 
 
 # urls:
+readthedocs
 src
 txt
 py
@@ -101,6 +123,38 @@ wz
 iter
 tp
 typeobj
+KMDT
+LjAuMA
+MDAy
+MDEz
+MDcxMy
+MITx
+MTYyMjc
+MTczNjMwNjAwMS
+MTgxMTI
+MzA
+NzM
+edx
+gcl
+gei
+gl
+goodpractices
+thinkcspy
+lms
+utm
+xLjEuMTczNjMwNjQ
+xNzM
+xp
+quickstart
+hmq
+wLjA
+bd
+johnid
+johnidouglasmarangon
+ouglasmarangon
+uptodate
+makotemplates
+ae
 
 
 # pythons implementations:

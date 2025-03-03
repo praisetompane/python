@@ -3,15 +3,21 @@
     - formal:
       - in words: an object that represents a stream of data.
 
-    - properties:
-      - forward and reserve traversal.
-      - can only be traversed once.
     - plain english: ???
 
-    - intuition: ???
+    - intuition: any object that implements any of the two:
+      - __iter__ and __next__
+      - __getitem__
 
-    - properties: ???
-
+    - properties:
+      - specification: PEP 234 – Iterators. https://peps.python.org/pep-0234/
+      - iterator protocol: https://docs.python.org/3/c-api/iter.html
+      - types: https://docs.python.org/3/c-api/iterator.html
+        - sequence iterator
+        - callable object + sentinel value iterator    
+      - forward and reserve traversal.
+        - can only be traversed once.
+      
     - examples: ???
 
     - use cases: ???
@@ -19,7 +25,7 @@
     - proof: None. It is a definition.
       
   References:
-    PEP 234 – Iterators. https://peps.python.org/pep-0234/
+    https://docs.python.org/3.11/glossary.html#term-iterator
 """
 
 collection = [i for i in range(5)]
