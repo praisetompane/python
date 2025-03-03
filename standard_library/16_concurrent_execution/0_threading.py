@@ -16,14 +16,14 @@ def thread:
         - constraints:
             - CPython: Due to the Global Interpreter Lock(GIL), only one thread can execute python code at a time.
             - threading module not available on WebAssembly platforms(i.e. wasm32-emscripten, wasm32-wasi).
-    - examples: ???
+    - examples: see below
 
     - use cases:
         - multiple IO-bound tasks:
             - database calls
             - external network services calls
         
-    - proof: ???
+    - proof: None. It is a definition.
     
 References: ???
 
