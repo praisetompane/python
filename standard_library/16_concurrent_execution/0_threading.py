@@ -12,13 +12,16 @@ def thread:
         - specification: 
             - high level: https://docs.python.org/3.11/library/threading.html
             - low level: https://docs.python.org/3.11/library/_thread.html#module-_thread
+        - implementation: https://github.com/python/cpython/blob/main/Lib/threading.py
         - constraints:
             - CPython: Due to the Global Interpreter Lock(GIL), only one thread can execute python code at a time.
             - threading module not available on WebAssembly platforms(i.e. wasm32-emscripten, wasm32-wasi).
     - examples: ???
 
     - use cases:
-        - multiple IO bound tasks
+        - multiple IO-bound tasks:
+            - database calls
+            - external network services calls
         
     - proof: ???
     
