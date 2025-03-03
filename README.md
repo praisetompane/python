@@ -1,5 +1,4 @@
 # Python
-
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![build status](https://github.com/praisetompane/python/actions/workflows/python.yaml/badge.svg) <br>
 
@@ -7,8 +6,9 @@
 - An in-depth study of Python's:
   - Interpreter.
     - This focuses on [CPython](https://github.com/python/cpython).
+    - [CPython Source Code Layout](https://devguide.python.org/internals/exploring/)
     - [Annotations on the actual interpreter implementation](https://github.com/praisetompane/python_implementation_study_cpython)
-      - They are prefixed with "Praise:"
+      - They are prefixed with "Praise:" 
   - Python's design, implementation and ecosystem.
 
 ## Language Details
@@ -38,18 +38,17 @@
 - [Discord](https://discuss.python.org)
 
 ## Use Cases
-  - [Applications of Python](https://www.python.org/about/apps/)
+- [Applications of Python](https://www.python.org/about/apps/)
 
 ## Learning Resources
-  - [roadmap](https://roadmap.sh/python)
-  - [practice problems](https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=python)
-  - [What Does It Take To Be An Expert At Python?](https://www.youtube.com/watch?v=7lmCu8wz8ro)
+- [roadmap](https://roadmap.sh/python)
+- [practice problems](https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=python)
+- [What Does It Take To Be An Expert At Python?](https://www.youtube.com/watch?v=7lmCu8wz8ro)
 
 ## Spell Check
 ```shell
 pyspelling -c spellcheck.yaml
 ```
-
 
 # References
 
