@@ -10,6 +10,10 @@ UTF
 MYINC
 ASGI
 WSGI
+PAAS
+VHD
+AMI
+FPM
 
 
 # authors
@@ -45,6 +49,10 @@ classname
 dunder
 bitwise
 executionmodel
+userspace
+userguide
+sdist
+exe
 
 
 # python keywords
@@ -65,6 +73,7 @@ init
 
 # technology:
 FastAPI
+flexx
 gunicorn
 JVM
 pyspelling
@@ -81,6 +90,22 @@ sqlalchemy
 libpq
 psycopg
 mako
+pynsist
+snapcraft
+virtualenv
+zipapp
+PEX
+macos
+osnap
+pacman
+kivy
+homebrew
+flatpack
+cx
+conda
+beeware
+gz
+AppImage
 
 
 # institutions:
@@ -95,9 +120,11 @@ runestone
 stackoverflow
 vidhya
 redhat
+Openstack
 
 
 # urls:
+pkgs
 readthedocs
 src
 txt
@@ -157,12 +184,18 @@ makotemplates
 ae
 
 
-# pythons implementations:
+# pythons implementations or runtimes:
 CPython
 IronPython
 jython
 pypy
 pythonnet
+brython
+pyscript
+Pyodide
+MicroPython
+CircuitPython
+
 
 # domain specific - C/Python API
 PyTypeObject
