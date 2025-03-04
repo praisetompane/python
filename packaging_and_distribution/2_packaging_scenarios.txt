@@ -1,7 +1,7 @@
 packaging considerations: target environment + deployment experience 
     - target audience:
         - developers
-        - datacenter operators
+        - data center operators
         - non technical end users
         - ...
     - runtime environment:
@@ -55,14 +55,72 @@ packaging scenarios:
     - python applications:
         - target audience: non-technical end users AND runtime environment = end user machines.
         - key: selection of tools is reasoned from dependence on the runtime environment.
+        - console scripts(i.e. terminal programs) or plugin extensible apps:
+            - entry points: https://setuptools.pypa.io/en/latest/userguide/entry_point.html
         - approaches:
-            -
-            -
-            -
-            -
-            - 
-            -
-            - 
+            - depend on a framework: use the framework's/platform's packaging tools and conventions.
+                - examples:
+                    - Platform-as-a-Service(PAAS)
+                    - web browsers:
+                        - https://brython.info
+                    - mobile applications
+                    - cross_platform:
+                        - https://beeware.org
+                        - https://github.com/kivy
+            
+            - depend on a preexisting Python installation: use existing Python on the target runtime environment
+                - examples:
+                    - Python Executable (PEX)
+                    - zipapp
+                    - shiv
 
+            - depend on a separate software distribution ecosystem:
+                - python application packages(akin to apt, homebrew, pacman etc.):
+                    - Anaconda
+                        - packaging with Anaconda: https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/index.html
+                        - native Python to Anaconda: https://conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs-skeleton.html
+
+            - bring your own Python executable:
+                - properties:
+                    - usually involves bundling the interpreter into the executable.
+                - freezing: package Python programs in a format native to the target runtime(e.g. OS)
+                    - tools(i.e. freezers):
+                        - single-user deployment:
+                            - cross_platform:
+                                - py_installer
+                                - cx_freeze
+                                - constructor
+                            - macos:
+                                - py2app
+                            - windows:
+                                - py2exe
+                                - pynsist
+                            - only windows and macos:
+                                - osnap
+                        - multi-user deployment:
+                            - chef omnibus
+            
+            - bring your own userspace: Operating-System-Level virtualization or Containerization
+                - tools:
+                    - AppImage
+                    - Docker
+                    - flatpack
+                    - snapcraft
+
+            - bring your own kernel: classical virtualization
+                - tools:
+                    - Vagrant
+                    - Virtual Hard Disk(VHD), Amazon Machine Image(AMI)
+                    - Openstack
+
+            - bring your own hardware: Python programs bundled with the hardware as a deployment unit:
+                - tools:
+                    - MicroPython and CircuitPython for small devices and embedded devices
+                    - Conventional hardware to install in data centers. 
+
+            - other approaches:
+                - operating system packages(i.e. deb, rpm, etc):
+                    - tools: FPM
+                - virtualenv
 References:
-    https://packaging.python.org/en/latest/overview/#packaging-applications
+    PyPA. 2025. Overview of Python Packaging. https://packaging.python.org/en/latest/overview/
