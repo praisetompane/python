@@ -1,26 +1,26 @@
 """
-  def decorators:
-      - formal: 𝑓: 𝑓 ↦ any 
+def decorators:
+    - formal: 𝑓: 𝑓 ↦ Modified[𝑓]
 
-          - in words: a high order function to modify and execute functions/methods
+        - in words: a high order function to modify and execute functions/methods
 
-      - plain english: syntactic sugar for invoking a high order function directly and returning the parameter function's result.
+    - plain english: syntactic sugar for invoking a high order function directly and returning the parameter function's result.
 
-      - intuition: ???
+    - intuition: ???
 
-      - properties:
-        - specification: https://peps.python.org/pep-0318/
+    - properties:
+      - specification: https://peps.python.org/pep-0318/
 
-      - examples:
-        - see function runtime tracker below: def timed
+    - examples:
+      - see function runtime tracker below: def timed
 
-      - use cases:
-        - aspect orientated programming:
-          - logging
-          
-      - proof: ???
-      
-  References: ???
+    - use cases:
+      - aspect orientated programming:
+        - logging
+
+    - proof: ???
+
+References: ???
 """
 
 import time

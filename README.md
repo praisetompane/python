@@ -19,6 +19,7 @@
 - [standard library reference](https://docs.python.org/3.11/library/index.html)
 - [packaging and distribution](https://packaging.python.org/en/latest/)
   - [python packaging authority](https://www.pypa.io/en/latest/)
+  - https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/
   - [glossary](https://packaging.python.org/en/latest/glossary/)
   - tools:
     - [pip](https://pypi.org/project/pip/)
@@ -39,6 +40,7 @@
 
 ## Use Cases
 - [Applications of Python](https://www.python.org/about/apps/)
+- [Style Guide](https://peps.python.org/pep-0008/)
 
 ## Learning Resources
 - [roadmap](https://roadmap.sh/python)
