@@ -16,7 +16,7 @@
 - [Interpreter](https://github.com/python/cpython)
   - [Bennett, J. 2019. See CPython run: Getting to know your Python interpreter. North Bay Python](https://www.youtube.com/watch?v=tzYhv61piNY)
 - [Base Modules Index](https://docs.python.org/3/py-modindex.html)
-- [Standard Library Reference](https://docs.python.org/3.11/library/index.html)
+- [Standard Library](https://docs.python.org/3.11/library/index.html)
 - [Packaging and Distribution](https://packaging.python.org/en/latest/)
   - [Python Packaging Authority](https://www.pypa.io/en/latest/)
   - [The Hitchhiker’s Guide to Packaging](https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/)
