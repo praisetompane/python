@@ -15,25 +15,25 @@
 - [Language Reference](https://docs.python.org/3.11/reference/index.html#reference*index)
 - [Interpreter](https://github.com/python/cpython)
   - [Bennett, J. 2019. See CPython run: Getting to know your Python interpreter. North Bay Python](https://www.youtube.com/watch?v=tzYhv61piNY)
-- [Base Modules Index](https://docs.python.org/3/py-modindex.html)
+- [Modules Index](https://docs.python.org/3/py-modindex.html)
+- Memory Model:
+  - [Computational Complexity Cost Model](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/)
 - [Standard Library](https://docs.python.org/3.11/library/index.html)
 - [Packaging and Distribution](https://packaging.python.org/en/latest/)
+  - [Package Index](https://pypi.org)
   - [Python Packaging Authority](https://www.pypa.io/en/latest/)
   - [The Hitchhiker’s Guide to Packaging](https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/)
   - [Glossary](https://packaging.python.org/en/latest/glossary/)
   - Tools:
     - [pip](https://pip.pypa.io/en/stable/)
     - [pipenv](https://pipenv.pypa.io/en/latest/)
-  - Structuring Projects:
-- [Package Index](https://pypi.org)
+  - Structuring Projects
+    - ...
 - [Extending and Embedding](https://docs.python.org/3.11/extending/index.html)
   - [PEP Index](https://www.python.org/dev/peps/)
 - [Developer Contribution Guide](https://devguide.python.org/)
-- Memory Model:
-  - [Computational Complexity Cost Model](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/)
 - [Glossary](https://docs.python.org/3.11/glossary.html)
-- History:
-  - [The Story of Python, by Its Creator, Guido van Rossum](https://www.youtube.com/watch?v=J0Aq44Pze-w)
+- [History](https://docs.python.org/3/license.html)
 
 ## Community
 - [Discord](https://discuss.python.org)
