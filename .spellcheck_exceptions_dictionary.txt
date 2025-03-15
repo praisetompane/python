@@ -57,7 +57,9 @@ exe
 
 # python keywords
 pprint
+getitem
 stdtypes
+iterobject
 builtins
 str
 eval
@@ -106,7 +108,10 @@ conda
 beeware
 gz
 AppImage
-
+WebAssembly
+emscripten
+wasi
+wasm
 
 # institutions:
 pypa
@@ -121,6 +126,7 @@ stackoverflow
 vidhya
 redhat
 Openstack
+PyData
 
 
 # urls:

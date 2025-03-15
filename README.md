@@ -12,27 +12,27 @@
   - Python's design, implementation and ecosystem.
 
 ## Language Details
-- [language reference](https://docs.python.org/3.11/reference/index.html#reference*index)
-- [interpreter:](https://github.com/python/cpython)
+- [Language Reference](https://docs.python.org/3.11/reference/index.html#reference*index)
+- [Interpreter](https://github.com/python/cpython)
   - [Bennett, J. 2019. See CPython run: Getting to know your Python interpreter. North Bay Python](https://www.youtube.com/watch?v=tzYhv61piNY)
-- [base modules index](https://docs.python.org/3/py-modindex.html)
-- [standard library reference](https://docs.python.org/3.11/library/index.html)
-- [packaging and distribution](https://packaging.python.org/en/latest/)
-  - [python packaging authority](https://www.pypa.io/en/latest/)
-  - https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/
-  - [glossary](https://packaging.python.org/en/latest/glossary/)
-  - tools:
-    - [pip](https://pypi.org/project/pip/)
+- [Base Modules Index](https://docs.python.org/3/py-modindex.html)
+- [Standard Library Reference](https://docs.python.org/3.11/library/index.html)
+- [Packaging and Distribution](https://packaging.python.org/en/latest/)
+  - [Python Packaging Authority](https://www.pypa.io/en/latest/)
+  - [The Hitchhiker’s Guide to Packaging](https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/)
+  - [Glossary](https://packaging.python.org/en/latest/glossary/)
+  - Tools:
+    - [pip](https://pip.pypa.io/en/stable/)
     - [pipenv](https://pipenv.pypa.io/en/latest/)
-  - structuring projects:
-- [package index](https://pypi.org)
-- [extending and embedding](https://docs.python.org/3.11/extending/index.html)
+  - Structuring Projects:
+- [Package Index](https://pypi.org)
+- [Extending and Embedding](https://docs.python.org/3.11/extending/index.html)
   - [PEP Index](https://www.python.org/dev/peps/)
-- [developer contribution guide](https://devguide.python.org/)
-- memory model:
-  - [computational complexity cost model](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/)
-- [glossary](https://docs.python.org/3.11/glossary.html)
-- history:
+- [Developer Contribution Guide](https://devguide.python.org/)
+- Memory Model:
+  - [Computational Complexity Cost Model](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/)
+- [Glossary](https://docs.python.org/3.11/glossary.html)
+- History:
   - [The Story of Python, by Its Creator, Guido van Rossum](https://www.youtube.com/watch?v=J0Aq44Pze-w)
 
 ## Community
@@ -45,7 +45,7 @@
 ## Learning Resources
 - [roadmap](https://roadmap.sh/python)
 - [practice problems](https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=python)
-- [What Does It Take To Be An Expert At Python?](https://www.youtube.com/watch?v=7lmCu8wz8ro)
+- [Powell, J. 2017. So you want to be a Python expert?. PyData](https://www.youtube.com/watch?v=7lmCu8wz8ro)
 
 ## Spell Check
 ```shell

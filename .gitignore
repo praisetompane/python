@@ -162,5 +162,5 @@ cython_debug/
 .DS_Store
 .vscode
 
-tools/
-experiments/
+ecosystem/
+scratch_pad.py
