@@ -71,6 +71,8 @@ formatspec
 sys
 iterable
 init
+metaclasses
+hasattr
 
 
 # technology:
@@ -112,6 +114,8 @@ WebAssembly
 emscripten
 wasi
 wasm
+pdb
+rlcompleter
 
 
 # institutions:

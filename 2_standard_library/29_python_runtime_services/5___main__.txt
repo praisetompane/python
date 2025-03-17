@@ -1,0 +1,44 @@
+def __main__"
+    - formal: ???
+
+        - in words:
+            - name for two Python constructs:
+                1. default name of the top-level environment.
+                2. __main__.py in Python packages
+
+    - plain english: 
+        1. default name of the entry-point of a Python program:
+            - akin to Java's: public static void main, C's int main, etc 
+        2. __main__.py in Python packages: entry point for package when ran using `python -m package_name`
+
+
+    - intuition: ???
+
+    - properties:
+
+
+    - examples:
+        see: 4_experiments/2_standard_library/29_python_runtime_services/5_top_level_code_environment
+
+    - use cases:
+        - a module can use it to detect if it is the entry-point of the program, with the idiomatic pattern below:
+            ``` python
+                if __name__ == __main__:
+                    # perform entry-point code
+            ```
+    
+        - access top-level(entry-point) module's namespace
+            - in practices usages:
+                - pdb: https://docs.python.org/3/library/pdb.html#module-pdb
+                - rlcompleter: https://docs.python.org/3/library/rlcompleter.html#module-rlcompleter
+        
+            see: 4_experiments/2_standard_library/29_python_runtime_services/5_top_level_code_environment/1_top_level_code/2_top_level_environment_namespace/test_entry_point.sh
+
+        - provide a command line interface to a package.
+            see: 4_experiments/2_standard_library/29_python_runtime_services/5_top_level_code_environment/2_package_entry_point/test_package_main.sh
+
+
+    - proof: ???
+
+References: ???
+    Python Software Foundation. 2025.  Python Runtime Services, The Python Standard Library. https://docs.python.org/3/library/__main__.html#
