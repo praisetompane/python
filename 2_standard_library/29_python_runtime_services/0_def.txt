@@ -1,0 +1,18 @@
+def python_runtime_services:
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: modules to interact with the Python interpreter and its runtime environment.
+
+    - intuition: ???
+
+    - properties: ???
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References: ???
