@@ -1,5 +1,13 @@
 What is the Data model?
 
+def data model:
+    a means by which we can implement protocols.
+    the protocol meaning is determined by the specific type.
+    example:
+        - __add__ for a string means concatenate
+        - __add__ for a Polynomial means add the coefficients
+        - ...
+
 1. objects, values and types
     What is?:
         id()

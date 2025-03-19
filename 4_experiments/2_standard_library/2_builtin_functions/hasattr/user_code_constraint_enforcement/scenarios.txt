@@ -1,0 +1,12 @@
+two teams:
+    - library: infrastructure code for reuse by other engineers
+    - user: code used to build software for users
+
+issues:
+    - user code needs to enforce that library code posses necessary interface
+        solutions:
+            - assert interface with hasattr:
+                example: What Does It Take To Be An Expert At Python/metaclasses/user_code_constraint_enforcement
+
+References:
+    Powell, J. 2017. What Does It Take To Be An Expert At Python. PyData
