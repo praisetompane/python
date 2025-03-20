@@ -1,4 +1,4 @@
-def python standard library:
+def built-in types:
     - formal: ???
 
         - in words: ???
@@ -7,8 +7,9 @@ def python standard library:
 
     - intuition: ???
 
-    - properties: ???
-    
+    - properties:
+        - all built-in type names in the STL https://docs.python.org/3/library/types.html#module-types
+
     - examples: ???
 
     - use cases: ???

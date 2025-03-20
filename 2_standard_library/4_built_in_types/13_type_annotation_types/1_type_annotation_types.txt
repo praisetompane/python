@@ -1,0 +1,26 @@
+def type_annotation_types
+    - formal: ???
+
+        - in words: core built-in types used for type annotations
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+        - members:
+            - Generic Alias Type
+                - class: types.GenericAlias
+                - properties:
+                    - not accepted as the 2nd parameter of `isinstance(object, classinfo)` or `issubclass(class, classinfo)`
+            - Union Type
+
+    - examples: ???
+
+    - use cases:
+        - function type annotations
+        - class type annotations
+    - proof: ???
+    
+References:
+    - The Python Standard Library. 2025. Type Annotation Types. https://docs.python.org/3/library/stdtypes.html#type-annotation-types-generic-alias-union

@@ -73,7 +73,10 @@ iterable
 init
 metaclasses
 hasattr
-
+GenericAlias
+classinfo
+isinstance
+issubclass
 
 # technology:
 FastAPI
