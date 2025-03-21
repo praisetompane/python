@@ -22,5 +22,5 @@ echo "Installing pipenv"
 echo "Done"
 
 echo "installing system level Black in python"
-    pip3 install black
+    brew install black
 echo "Done"
