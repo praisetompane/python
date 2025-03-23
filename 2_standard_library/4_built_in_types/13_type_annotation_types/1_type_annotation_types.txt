@@ -23,4 +23,4 @@ def type_annotation_types
     - proof: ???
     
 References:
-    - The Python Standard Library. 2025. Type Annotation Types. https://docs.python.org/3/library/stdtypes.html#type-annotation-types-generic-alias-union
+    The Python Standard Library. 2025. Type Annotation Types. https://docs.python.org/3/library/stdtypes.html#type-annotation-types-generic-alias-union

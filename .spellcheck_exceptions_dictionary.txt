@@ -40,7 +40,6 @@ pycache
 IndentationError
 TabError
 SyntaxError
-datamodel
 coroutines
 lexemes
 lexically
@@ -138,6 +137,7 @@ PyData
 
 
 # urls:
+datamodel
 pkgs
 readthedocs
 src

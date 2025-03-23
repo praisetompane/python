@@ -1,46 +1,48 @@
 # Python
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![build status](https://github.com/praisetompane/python/actions/workflows/python.yaml/badge.svg) <br>
 
 ## Objectives
 - An in-depth study of Python's:
-  - Interpreter.
-    - This focuses on [CPython](https://github.com/python/cpython).
-    - [CPython Source Code Layout](https://devguide.python.org/internals/exploring/)
-    - [Annotations on the actual interpreter implementation](https://github.com/praisetompane/python_implementation_study_cpython)
-      - They are prefixed with "Praise:" 
-  - Python's design, implementation and ecosystem.
+    - Interpreter.
+        - This focuses on [CPython](https://github.com/python/cpython).
+        - [CPython Source Code Layout](https://devguide.python.org/internals/exploring/)
+            - [Style Guide](https://peps.python.org/pep-0008/)
+                - [Python](https://peps.python.org/pep-0007/)
+                - [C](https://peps.python.org/pep-0007/)
+        - [Annotations on the actual interpreter implementation](https://github.com/praisetompane/python_implementation_study_cpython)
+            - They are prefixed with "Praise:" 
+    - Python's design, implementation and ecosystem.
 
 ## Language Details
+- Language Specification: None
+- [Compiler | Interpreter](https://github.com/python/cpython)
+    - [Bennett, J. 2019. See CPython run: Getting to know your Python interpreter. North Bay Python](https://www.youtube.com/watch?v=tzYhv61piNY)
+- [Type System](https://typing.python.org/en/latest/spec/index.html)
+- [Memory Model](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/)
 - [Language Reference](https://docs.python.org/3/reference/index.html)
-- [Interpreter](https://github.com/python/cpython)
-  - [Bennett, J. 2019. See CPython run: Getting to know your Python interpreter. North Bay Python](https://www.youtube.com/watch?v=tzYhv61piNY)
-- [Modules Index](https://docs.python.org/3/py-modindex.html)
-- Memory Model:
-  - [Computational Complexity Cost Model](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/)
 - [Standard Library](https://docs.python.org/3/library/index.html)
-- [Packaging and Distribution](https://packaging.python.org/en/latest/)
-  - [Package Index](https://pypi.org)
-  - [Python Packaging Authority](https://www.pypa.io/en/latest/)
-  - [The Hitchhiker’s Guide to Packaging](https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/)
-  - [Glossary](https://packaging.python.org/en/latest/glossary/)
-  - Tools:
-    - [pip](https://pip.pypa.io/en/stable/)
-    - [pipenv](https://pipenv.pypa.io/en/latest/)
-  - Structuring Projects
-    - ...
+- [Packaging and Distribution]( https://www.pypa.io/en/latest/)
+    - [Core Module Index](https://docs.python.org/3/py-modindex.html)
+    - [Package Index](https://pypi.org)
+    - Tools:
+        - [pip](https://pip.pypa.io/en/stable/)
+        - [pipenv](https://pipenv.pypa.io/en/latest/)
+    - Structuring Projects:
+        - ...
 - [Extending and Embedding](https://docs.python.org/3/extending/index.html)
-  - [PEP Index](https://www.python.org/dev/peps/)
+    - [PEP Index](https://www.python.org/dev/peps/)
 - [Developer Contribution Guide](https://devguide.python.org/)
-- [Glossary](https://docs.python.org/3/glossary.html)
 - [History](https://docs.python.org/3/license.html)
-
-## Community
-- [Discord](https://discuss.python.org)
+- [Glossary]
+    - [Language](https://docs.python.org/3/glossary.html)
+    - [Packaging](https://packaging.python.org/en/latest/glossary/)
 
 ## Use Cases
 - [Applications of Python](https://www.python.org/about/apps/)
-- [Style Guide](https://peps.python.org/pep-0008/)
+- [Effective Application]
+
+## Community
+    - [Discord](https://discuss.python.org)
 
 ## Learning Resources
 - [roadmap](https://roadmap.sh/python)
