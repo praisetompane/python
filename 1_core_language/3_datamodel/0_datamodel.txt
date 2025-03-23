@@ -1,0 +1,25 @@
+def datamodel:
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties: ???
+
+    - examples: ???
+
+    - use cases:
+        - a means by which we can implement protocols(Powell, 2017)
+            the protocol meaning is determined by the specific type.
+            example:
+                - __add__ for a string means concatenate
+                - __add__ for a Polynomial means add the coefficients
+        - ...
+
+    - proof: ???
+    
+References:
+    Powell, J. 2017. What Does It Take To Be An Expert At Python. PyData

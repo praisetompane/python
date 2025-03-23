@@ -1,0 +1,32 @@
+def object:
+    - formal: ???
+        - in words: ???
+
+    - plain english: Python's abstraction for data and code.
+
+    - intuition: ???
+
+    - properties:
+        - id
+        - value
+        - type
+            - implementation:
+                - cpython:
+                    - PyTypeObject
+            - type system: https://typing.python.org/en/latest/spec/index.html
+        
+        - operations:
+            - is: compares object identity
+            - id(object): returns an object's identity memory address(in cpython)
+
+        - implementation:
+            - cpython:
+                - id(object) = memory address
+    - examples: ???
+
+    - use cases: ???
+        
+    - proof: ???
+    
+References: ???
+    Python Software Foundation. 2023. Objects, values and types. https://docs.python.org/3.12/reference/datamodel.html#objects-values-and-types

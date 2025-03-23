@@ -8,6 +8,13 @@ def built-in types:
     - intuition: ???
 
     - properties:
+        - principle types:
+            - numerics
+            - sequences
+            - mappings
+            - classes
+            - instances
+            - exceptions
         - all built-in type names in the STL https://docs.python.org/3/library/types.html#module-types
 
     - examples: ???
@@ -17,4 +24,4 @@ def built-in types:
     - proof: ???
     
 References: ???
-
+    The Python Standard Library. Built-in Types. https://docs.python.org/3/library/stdtypes.html
