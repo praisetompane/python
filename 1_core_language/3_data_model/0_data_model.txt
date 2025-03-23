@@ -1,4 +1,4 @@
-def datamodel:
+def data model:
     - formal: ???
 
         - in words: ???
