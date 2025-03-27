@@ -21,6 +21,6 @@ def generator | generator function:
   - proof: None. It is a definition.
     
 References:
-  https://docs.python.org/3.11/glossary.html#term-generator
+  The Python Standard Library. 2025. https://docs.python.org/3/glossary.html#term-generator
 
 

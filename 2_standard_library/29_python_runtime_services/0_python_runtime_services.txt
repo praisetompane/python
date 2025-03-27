@@ -15,4 +15,5 @@ def python_runtime_services:
 
     - proof: ???
 
-References: ???
+References:
+    The Python Standard Library. Python Runtime Services. 2025. https://docs.python.org/3/library/python.html
