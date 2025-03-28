@@ -52,7 +52,11 @@ userspace
 userguide
 sdist
 exe
-
+hashable
+checksubclass
+issubclasshook
+issubclass
+metaclass
 
 # python keywords
 pprint

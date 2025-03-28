@@ -1,0 +1,27 @@
+def collections_abcs:
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+        - implementation: https://github.com/python/cpython/tree/3.11/Lib/_collections_abc.py
+        - specification: https://docs.python.org/3/library/collections.abc.html
+    - examples: 
+        - test interface compliance:
+            - hashable
+            - iterable
+            - mapping
+            - ...
+
+    - use cases:
+        - implement custom classes that satisfy the container API.
+        - test compliance to a collections' interface using `issubclass` or `isinstance`.
+        
+    - proof: ???
+    
+References: 
+    The Python Standard Library. 2025. collections.abc — Abstract Base Classes for Containers, Data Types. https://docs.python.org/3/library/collections.abc.html
