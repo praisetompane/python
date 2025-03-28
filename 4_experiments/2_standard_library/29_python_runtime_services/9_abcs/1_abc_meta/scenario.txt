@@ -1,0 +1,12 @@
+two teams:
+    - internal classes that implement some contract
+    - immutable third party provided classes that implement some contract
+
+issues:
+    - we have polymorphic code that delegates to work workers, based on the contract they implement, that cannot be checked with duck typing.
+        - solution:
+            - register the third party classes as a subclass using  Python's ABCs.
+            - implement custom behaviour for `issubclass` for a specific ABC, using `__issubclasshook__()`.
+                - __issubclasshook__() is used by __checksubclass__()
+    
+

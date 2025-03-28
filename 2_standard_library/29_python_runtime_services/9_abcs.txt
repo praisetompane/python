@@ -11,11 +11,15 @@ def abcs:
         - specification: 
             - https://peps.python.org/pep-3119/
             - https://docs.python.org/3/library/abc.html#module-abc
+
         - implementation: https://github.com/python/cpython/blob/3.13/Lib/abc.py
+        
 
     - examples: ???
 
-    - use cases: ???
+    - use cases:
+        - register a third-party class as a subclass of our own abstract class(i.e. metaclass)
+            this enables using the third-party class in polymorphic code as a subclass.
         
     - proof: ???
     
