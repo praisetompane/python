@@ -14,7 +14,7 @@ PAAS
 VHD
 AMI
 FPM
-
+GC
 
 # authors
 Rossum
@@ -58,7 +58,8 @@ issubclasshook
 issubclass
 metaclass
 
-# python keywords
+
+# python keywords:
 pprint
 getitem
 stdtypes
@@ -80,6 +81,7 @@ GenericAlias
 classinfo
 isinstance
 issubclass
+
 
 # technology:
 FastAPI

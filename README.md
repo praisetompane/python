@@ -18,6 +18,7 @@
 - [Compiler | Interpreter](https://github.com/python/cpython)
     - [Bennett, J. 2019. See CPython run: Getting to know your Python interpreter. North Bay Python](https://www.youtube.com/watch?v=tzYhv61piNY)
 - [Type System](https://typing.python.org/en/latest/spec/index.html)
+    - [GC](https://docs.python.org/3/library/gc.html)
 - [Memory Model](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/)
 - [Language Reference](https://docs.python.org/3/reference/index.html)
 - [Standard Library](https://docs.python.org/3/library/index.html)
