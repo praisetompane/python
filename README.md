@@ -28,22 +28,22 @@
     - Tools:
         - [pip](https://pip.pypa.io/en/stable/)
         - [pipenv](https://pipenv.pypa.io/en/latest/)
-    - Structuring Projects:
-        - ...
+    - [Structuring Projects](https://setuptools.pypa.io/en/stable/userguide/package_discovery.html#src-layout)
+    
 - [Extending and Embedding](https://docs.python.org/3/extending/index.html)
     - [PEP Index](https://www.python.org/dev/peps/)
 - [Developer Contribution Guide](https://devguide.python.org/)
 - [History](https://docs.python.org/3/license.html)
-- [Glossary]
+- Glossary
     - [Language](https://docs.python.org/3/glossary.html)
     - [Packaging](https://packaging.python.org/en/latest/glossary/)
 
 ## Use Cases
 - [Applications of Python](https://www.python.org/about/apps/)
-- [Effective Application]
+- Effective Application
 
 ## Community
-    - [Discord](https://discuss.python.org)
+- [Discord](https://discuss.python.org)
 
 ## Learning Resources
 - [roadmap](https://roadmap.sh/python)
