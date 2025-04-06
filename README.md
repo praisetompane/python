@@ -41,6 +41,7 @@
 ## Use Cases
 - [Applications of Python](https://www.python.org/about/apps/)
 - Effective Application
+    - [Programming Recommendations](https://peps.python.org/pep-0008/#programming-recommendations)
 
 ## Community
 - [Discord](https://discuss.python.org)
