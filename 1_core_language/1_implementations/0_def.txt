@@ -23,6 +23,7 @@
 
     - Brython: https://github.com/brython-dev/brython
 
+    - Cython: https://github.com/cython/cython
 - ports:
     - Pyodide: https://github.com/pyodide/pyodide
         - platform:
