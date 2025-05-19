@@ -23,4 +23,4 @@ def code block: piece of python program text that's
     see: ./src/3_execution_model/1_code_block.py
     
 References:
-    Python Software Foundation. 2023. Execution model. https://docs.python.org/3.11/reference/executionmodel.html.
+    Python Software Foundation. 2023. Execution model. https://docs.python.org/3.11/reference/executionmodel.html

@@ -1,0 +1,42 @@
+structure of a python program (Python Software Foundation, 2023):
+    - formal: ???
+        - in words: ???
+        Q: Is there a formal notion/definition of a Python program?
+        
+    - plain english: ???
+    
+    - intuition: ???
+
+    - properties:
+        - flow: ???
+
+        - composed of code blocks that:
+            - run in an execution frame.
+
+        def name resolution
+
+        def block environment
+
+        def exec()
+
+        def eval()
+
+        builtins and restricted execution
+            def builtins
+
+        interaction with dynamic features
+
+        exceptions
+            def exception
+
+            def raised
+
+            def handled
+
+            def termination model error handling       
+
+    - examples:
+        - 4_experiments/1_core_language/8_compound_statements/3_for_statement/for.py
+
+References:
+    Python Software Foundation. 2023. Execution model. https://docs.python.org/3.11/reference/executionmodel.html#structure-of-a-program

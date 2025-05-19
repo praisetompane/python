@@ -15,7 +15,7 @@
 
 ## Language Details
 - Language Specification: None
-- [Compiler | Interpreter](https://github.com/python/cpython)
+- [Interpreter](https://github.com/python/cpython)
     - [Bennett, J. 2019. See CPython run: Getting to know your Python interpreter. North Bay Python](https://www.youtube.com/watch?v=tzYhv61piNY)
 - [Type System](https://typing.python.org/en/latest/spec/index.html)
     - [GC](https://docs.python.org/3/library/gc.html)
