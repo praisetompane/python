@@ -7,7 +7,7 @@ def multiprocessing:
 
     - intuition: threading API applied to processes.
 
-    - properties: 
+    - properties:
       - specification: https://docs.python.org/3.11/library/multiprocessing.html
       - implementation:
         - high level: https://github.com/python/cpython/tree/main/Lib/multiprocessing
@@ -16,7 +16,7 @@ def multiprocessing:
 
     - use cases: ???
 
-    - proof: None. It is a definition.
+    - proof: none. it is a definition.
 
 References: ???
 

@@ -1,4 +1,4 @@
- def generator expression: 
+ def generator expression:
   - formal: expression ↦ Iterator
       - in words: an expression that returns an Iterator.
 
@@ -12,12 +12,12 @@
   - examples:
       1. without an if:
           i*i for i in range(10)
-      2. with an if:  
+      2. with an if:
         j**j for j in range(20) if j%2 == 0
   - use cases: ???
-      
-  - proof: None. It is a definition.
-    
+
+  - proof: none. it is a definition.
+
 References:
   The Python Standard Library. 2025. https://docs.python.org/3/glossary.html#term-generator-iterator
 

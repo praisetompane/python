@@ -1,4 +1,4 @@
-def generator | generator function: 
+def generator | generator function:
   - formal: 𝑓: * ↦ Generator Iterator
       - in words: a function that creates and returns a Generator Iterator.
 
@@ -18,8 +18,8 @@ def generator | generator function:
     - Just In Time processing: generate values as they become available and return them for processing them at call/client side.
     - create coroutines, which allows interleaving client code with library code:
       - this enables sequencing
-  - proof: None. It is a definition.
-    
+  - proof: none. it is a definition.
+
 References:
   The Python Standard Library. 2025. https://docs.python.org/3/glossary.html#term-generator
 

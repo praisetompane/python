@@ -10,7 +10,7 @@
                 - [Python](https://peps.python.org/pep-0007/)
                 - [C](https://peps.python.org/pep-0007/)
         - [Annotations on the actual interpreter implementation](https://github.com/praisetompane/python_implementation_study_cpython)
-            - They are prefixed with "Praise:" 
+            - They are prefixed with "Praise:"
     - Python's design, implementation and ecosystem.
 
 ## Language Details
@@ -29,7 +29,6 @@
         - [pip](https://pip.pypa.io/en/stable/)
         - [pipenv](https://pipenv.pypa.io/en/latest/)
     - [Structuring Projects](https://setuptools.pypa.io/en/stable/userguide/package_discovery.html#src-layout)
-    
 - [Extending and Embedding](https://docs.python.org/3/extending/index.html)
     - [PEP Index](https://www.python.org/dev/peps/)
 - [Developer Contribution Guide](https://devguide.python.org/)
