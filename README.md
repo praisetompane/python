@@ -13,6 +13,9 @@
             - They are prefixed with "Praise:"
     - Python's design, implementation and ecosystem.
 
+## ACM Classification:
+Software And Its Engineering/Software Notations And Tools/General Programming Languages/Language Types/Multiparadigm Languages
+
 ## Language Details
 - Language Specification: None
 - [Interpreter](https://github.com/python/cpython)
