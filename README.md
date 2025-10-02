@@ -13,6 +13,9 @@
             - They are prefixed with "Praise:"
     - Python's design, implementation and ecosystem.
 
+## ACM Classification:
+Software And Its Engineering/Software Notations And Tools/General Programming Languages/Language Types/Multiparadigm Languages
+
 ## Language Details
 - Language Specification: None
 - [Interpreter](https://github.com/python/cpython)
@@ -22,8 +25,8 @@
 - [Memory Model](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/)
 - [Language Reference](https://docs.python.org/3/reference/index.html)
 - [Standard Library](https://docs.python.org/3/library/index.html)
-- [Packaging and Distribution]( https://www.pypa.io/en/latest/)
     - [Core Module Index](https://docs.python.org/3/py-modindex.html)
+- [Packaging and Distribution]( https://www.pypa.io/en/latest/)
     - [Package Index](https://pypi.org)
     - Tools:
         - [pip](https://pip.pypa.io/en/stable/)
@@ -53,6 +56,13 @@
 ## Spell Check
 ```shell
 pyspelling -c spellcheck.yaml
+```
+
+## Execute Programs
+```shell
+python source_file.py
+#Example:
+python 4_experiments/2_standard_library/2_builtin_functions/io/input_stdin.py
 ```
 
 # References
