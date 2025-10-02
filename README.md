@@ -25,8 +25,8 @@ Software And Its Engineering/Software Notations And Tools/General Programming La
 - [Memory Model](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/)
 - [Language Reference](https://docs.python.org/3/reference/index.html)
 - [Standard Library](https://docs.python.org/3/library/index.html)
-- [Packaging and Distribution]( https://www.pypa.io/en/latest/)
     - [Core Module Index](https://docs.python.org/3/py-modindex.html)
+- [Packaging and Distribution]( https://www.pypa.io/en/latest/)
     - [Package Index](https://pypi.org)
     - Tools:
         - [pip](https://pip.pypa.io/en/stable/)
@@ -56,6 +56,13 @@ Software And Its Engineering/Software Notations And Tools/General Programming La
 ## Spell Check
 ```shell
 pyspelling -c spellcheck.yaml
+```
+
+## Execute Programs
+```shell
+python source_file.py
+#Example:
+python 4_experiments/2_standard_library/2_builtin_functions/io/input_stdin.py
 ```
 
 # References

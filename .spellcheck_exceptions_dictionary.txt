@@ -1,4 +1,5 @@
 # acronyms
+ACM
 CRLF
 LF
 DLR
@@ -16,6 +17,7 @@ AMI
 FPM
 GC
 
+
 # authors
 Rossum
 praisetompane
@@ -28,6 +30,7 @@ Marangon
 
 
 # domain specific
+Multiparadigm
 radix
 bytecode
 whitespace
@@ -60,6 +63,7 @@ metaclass
 
 
 # python keywords:
+stdin
 pprint
 getitem
 stdtypes
